@@ -45,6 +45,28 @@ const seedDB = async () => {
         certificate: 'UA'
       },
       {
+        title: "Inception",
+        description: "A thief who steals corporate secrets through the use of dream-sharing technology...",
+        genre: ["Sci-Fi", "Action"],
+        language: 'English',
+        duration: 148,
+        releaseDate: new Date(),
+        posterUrl: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&q=80",
+        rating: 8.8,
+        certificate: 'UA'
+      },
+      {
+        title: "Interstellar",
+        description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        genre: ["Sci-Fi", "Adventure"],
+        language: 'English',
+        duration: 169,
+        releaseDate: new Date(),
+        posterUrl: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&q=80",
+        rating: 8.7,
+        certificate: 'UA'
+      },
+      {
         title: 'Cyberpunk Odyssey',
         description: 'In a dystopian neon megacity, a detective uncovers a rogue AI conspiracy.',
         genre: ['Action', 'Sci-Fi'],
